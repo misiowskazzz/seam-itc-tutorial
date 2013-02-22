@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  AppUser: misiek
+  Date: 2/21/13
+  Time: 2:25 PM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <title>Simple JSF Facelets page</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h:dataTable id="users" value="#{homeUserList.users}" var="user">
+            <h:column>
+                <f:facet name="header">id</f:facet>
+                #{user.id}
+            </h:column>
+            <h:column>
+                <f:facet name="header">email</f:facet>
+                #{user.email}
+            </h:column>
+            <h:column>
+                <f:facet name="header">password</f:facet>
+                #{user.password}
+            </h:column>
+            <h:column>
+                <f:facet name="header">role</f:facet>
+                #{user.role}
+            </h:column>
+            <h:column>
+                <f:facet name="header">delete</f:facet>
+                <h:commandLink value="Remove" action="#{homeUserList.remove(user)}"></h:commandLink>
+            </h:column>
+            <h:column>
+                <f:facet name="header">select</f:facet>
+                <h:commandLink value="Select" action="#{homeUserList.setSelectedUser(user)}"></h:commandLink>
+            </h:column>
+        </h:dataTable>
+    </h:form>
+    <h:form>
+        <br/>
+        <h:outputText value="#{homeUserList.selectedUser.id}"/>
+        <br/>
+        <h:outputText value="email"/>
+        <h:inputText value="#{homeUserList.selectedUser.email}"/>
+        <br/>
+        <h:outputText value="password"/>
+        <h:inputText value="#{homeUserList.selectedUser.password}"/>
+        <br/>
+        <h:outputText value="role"/>
+        <h:inputText value="#{homeUserList.selectedUser.role}"/>
+        <h:commandButton value="new" action="#{homeUserList.addNewUser()}"/>
+        <h:commandButton value="save" action="#{homeUserList.save()}"/>
+    </h:form>
+</h:body>
+
+</html>

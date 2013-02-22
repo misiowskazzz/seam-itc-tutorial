@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="seamITcrowdTutorial:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="seamITcrowdTutorial.war">
+      <element id="artifact" artifact-name="seamITcrowdTutorial:war exploded" />
+    </root>
+  </artifact>
+</component>

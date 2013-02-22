@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="seamITcrowdTutorial:war exploded">
+    <output-path>$PROJECT_DIR$/target/seamITcrowdTutorial</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="seamITcrowdTutorial/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="seamITcrowdTutorial" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.16" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.faces:seam-faces:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.faces:seam-faces-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-logging:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-impl:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.international:seam-international-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.international:seam-international:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.mail:seam-mail:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.mail:seam-mail-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:r07" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.persistence:seam-persistence:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.persistence:seam-persistence-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.transaction:seam-transaction-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.transaction:seam-transaction:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:1.0.2.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.security:seam-security:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.seam.security:seam-security-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.picketlink.idm:picketlink-idm-api:1.5.0.Alpha02" />
+          <element id="library" level="project" name="Maven: org.picketlink.idm:picketlink-idm-common:1.5.0.Alpha02" />
+          <element id="library" level="project" name="Maven: org.picketlink.idm:picketlink-idm-spi:1.5.0.Alpha02" />
+          <element id="library" level="project" name="Maven: org.picketlink.idm:picketlink-idm-core:1.5.0.Alpha02" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
