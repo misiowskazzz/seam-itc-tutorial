@@ -41,11 +41,11 @@
             </h:column>
             <h:column>
                 <f:facet name="header">delete</f:facet>
-                <h:commandLink value="Remove" action="#{homeUserList.remove(user)}"></h:commandLink>
+                <h:commandLink value="Remove" action="#{homeUserList.remove(user)}" rendered="#{authorizer.admin}"></h:commandLink>
             </h:column>
             <h:column>
                 <f:facet name="header">select</f:facet>
-                <h:commandLink value="Select" action="#{homeUserList.setSelectedUser(user)}"></h:commandLink>
+                <h:commandLink value="Select" action="#{homeUserList.setSelectedUser(user)}" rendered="#{authorizer.admin}"></h:commandLink>
             </h:column>
         </h:dataTable>
     </h:form>
@@ -61,7 +61,7 @@
         <br/>
         <h:outputText value="role"/>
         <h:inputText value="#{homeUserList.selectedUser.role}"/>
-        <h:commandButton value="new" action="#{homeUserList.addNewUser()}"/>
+        <h:commandButton value="new" action="#{homeUserList.addNewUser()}" />
         <h:commandButton value="save" action="#{homeUserList.save()}"/>
     </h:form>
 </h:body>

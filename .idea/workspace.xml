@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358417eb-5925-472a-b009-445ca1c0569c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
     </list>
     <ignored path="seamITcrowdTutorial.iws" />
@@ -13,7 +11,7 @@
     <file path="/AppUserDao.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361457056098" ignored="false" />
     <file path="/fragment.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361786100737" ignored="false" />
     <file path="/startup.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361527535783" ignored="false" />
-    <file path="/homeUserList.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361779940694" ignored="false" />
+    <file path="/homeUserList.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361786785920" ignored="false" />
     <file path="/AppUserView.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361457255344" ignored="false" />
     <file path="$PROJECT_DIR$/../temp/seam-tutorial/.idea/workspace.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361548626182" ignored="false" />
     <file path="$PROJECT_DIR$/../github-jsf/jsf-itc-tutorial/.idea/workspace.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361462519849" ignored="false" />
@@ -122,10 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppUserDAO.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppUserDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.29710144">
+            <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeUserList.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.682243">
               <folding />
             </state>
           </provider>
@@ -169,11 +176,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dissgrantAccess/DissgrantAccess.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/SecurityExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
       </list>
     </option>
   </component>
@@ -917,7 +924,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37893298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37893298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -929,10 +936,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17052767" sideWeight="0.62106705" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17052767" sideWeight="0.67305064" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25611326" sideWeight="0.62106705" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269494" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25611326" sideWeight="0.67305064" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3269494" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="101" y="103" width="1400" height="677" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1038,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="678" selection-end="678" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/Startup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="67" selection-start="825" selection-end="825" vertical-scroll-proportion="0.6955503">
@@ -1125,7 +1125,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.29710144">
+        <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.682243">
           <folding />
         </state>
       </provider>
