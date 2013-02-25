@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358417eb-5925-472a-b009-445ca1c0569c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml" />
     </list>
     <ignored path="seamITcrowdTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +22,7 @@
     <file path="$PROJECT_DIR$/../github-jsf/jsf-itc-tutorial/src/main/java/pl/itcrowd/jsf/tutorial/phases/DataBean.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361462515372" ignored="false" />
     <file path="/pom.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361532160734" ignored="false" />
     <file path="/Startup.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361540300702" ignored="false" />
-    <file path="$PROJECT_DIR$/../temp/seam-tutorial/pom.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361527999761" ignored="false" />
+    <file path="$PROJECT_DIR$/../temp/seam-tutorial/pom.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361788767496" ignored="false" />
     <file path="/a.txt" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361529063592" ignored="false" />
     <file path="/faces-config.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361528351047" ignored="false" />
     <file path="/EntityManagerProducer.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361528644599" ignored="false" />
@@ -40,6 +40,11 @@
     <file path="/DissgrantAccess.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361781639273" ignored="false" />
     <file path="/UserAuthenticator.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361783681001" ignored="false" />
     <file path="/login.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361784793806" ignored="false" />
+    <file path="/emailMsg.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361787912592" ignored="false" />
+    <file path="/EmailMsg.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361787671311" ignored="false" />
+    <file path="$PROJECT_DIR$/../temp/seam-tutorial/src/main/java/pl/itcrowd/tutorials/itc/Startup.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361788767495" ignored="false" />
+    <file path="$PROJECT_DIR$/../temp/seam-tutorial/src/main/java/pl/itcrowd/tutorials/itc/view/MessageView.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361788767496" ignored="false" />
+    <file path="$PROJECT_DIR$/../temp/seam-tutorial/src/main/resources/META-INF/seam-beans.xml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361788767496" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,17 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="284" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppUserDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,10 +123,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeUserList.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="homeUserList.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.682243">
+            <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-12.166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emailMsg.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="66" selection-start="942" selection-end="942" vertical-scroll-proportion="-9.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailMsg.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="17" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/seam/mail/seam-mail-api/3.1.0.Final/seam-mail-api-3.1.0.Final-sources.jar!/org/jboss/seam/mail/api/MailMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="17" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seam-beans.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="8" selection-start="648" selection-end="648" vertical-scroll-proportion="0.45348838">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeUserList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/HomeUserList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="476" selection-end="497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,9 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/framework/Selected.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/HomeUserList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/disgrantAccess/DeniedAccess.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/disgrantAccess/AccessDenied.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/disgrantAccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/dissgrantAccess.xhtml" />
@@ -181,6 +230,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml" />
       </list>
     </option>
   </component>
@@ -402,6 +454,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,7 +975,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="3" width="1600" height="877" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -939,7 +999,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17052767" sideWeight="0.67305064" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25611326" sideWeight="0.67305064" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3269494" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3269494" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="101" y="103" width="1400" height="677" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1008,52 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dissgrantAccess/dissgrantAccess.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dissgrantAccess/AccessDenied.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dissgrantAccess/DissgrantAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/Startup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="825" selection-end="825" vertical-scroll-proportion="0.6955503">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Authorizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="0.17564403">
@@ -1087,13 +1101,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/seam/security/seam-security-api/3.1.0.Final/seam-security-api-3.1.0.Final-sources.jar!/org/jboss/seam/security/Credentials.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="11" selection-start="226" selection-end="226" vertical-scroll-proportion="0.3325527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="635" selection-end="635" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
@@ -1132,7 +1139,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.682243">
+        <state line="47" column="123" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-12.166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="635" selection-end="635" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/HomeUserList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="476" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="66" selection-start="942" selection-end="942" vertical-scroll-proportion="-9.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="17" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/seam/mail/seam-mail-api/3.1.0.Final/seam-mail-api-3.1.0.Final-sources.jar!/org/jboss/seam/mail/api/MailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="648" selection-end="648" vertical-scroll-proportion="0.45348838">
           <folding />
         </state>
       </provider>

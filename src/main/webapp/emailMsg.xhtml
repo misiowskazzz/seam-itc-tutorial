@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: misiek
+  Date: 2/25/13
+  Time: 11:08 AM
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Simple JSF Facelets page</title>
+</h:head>
+
+<h:body>
+    send Yours mail here
+    <h:form>
+        <h:panelGrid columns="3">
+            <h:outputText value="him/her email address:"/>
+            <h:inputText value="#{emailMsg.emailAddress}"/>
+
+            <br/>
+            <h:outputText value="topic:"/>
+            <h:inputText value="#{emailMsg.emailTopic}"/>
+
+            <br/>
+            <h:outputText value="msg:"/>
+            <h:inputText value="#{emailMsg.emailMsg}"/>
+        </h:panelGrid>
+        <h:commandButton value="send MSG" action="#{emailMsg.sendEmail}" />
+    </h:form>
+</h:body>
+
+</html>
