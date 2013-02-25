@@ -34,7 +34,6 @@ public class HomeUserList {
         selectedUser=new AppUser();
     }
 
-
     public List<AppUser> getUsers()
     {
         if (users == null) {

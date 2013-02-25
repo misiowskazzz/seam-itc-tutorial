@@ -20,6 +20,7 @@
     <h:link value="Login" outcome="login" rendered="#{not identity.loggedIn}"/>
     <h:form>
         <h:commandLink value="Logout" action="#{identity.logout}" rendered="#{identity.loggedIn}"/>
+        <h:outputText value="#{emailMsg.appUserName}"/>
     </h:form>
     <h:form>
         <h:dataTable id="users" value="#{homeUserList.users}" var="user">

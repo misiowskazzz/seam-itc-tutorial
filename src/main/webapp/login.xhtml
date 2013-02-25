@@ -3,13 +3,9 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html">
-
 <h:head>
-
 </h:head>
-
 <h:body>
-
     <h:outputScript rendered="#{identity.loggedIn}">
         document.location='#{request.contextPath}/homeUserList.jsf';
     </h:outputScript>
@@ -23,5 +19,4 @@
         <h:commandButton value="Login" action="#{identity.login}"/>
     </h:form>
 </h:body>
-
 </html>
