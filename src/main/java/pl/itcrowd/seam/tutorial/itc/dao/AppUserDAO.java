@@ -20,7 +20,8 @@ public class AppUserDAO {
     }
 
     public AppUser getUserByEmail(String email) {
-        return entityManager.find(AppUser.class, email);
+        final AppUser appUser = (AppUser)entityManager.createQuery("select u from AppUser u where u.email=:email").setParameter("email", email).getSingleResult();
+        return appUser;
     }
 
     public void onAppUserRemoveAction(@Observes @Removed AppUser appUser) {

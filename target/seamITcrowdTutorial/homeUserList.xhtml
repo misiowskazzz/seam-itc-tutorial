@@ -17,6 +17,10 @@
 </h:head>
 
 <h:body>
+    <h:link value="Login" outcome="login" rendered="#{not identity.loggedIn}"/>
+    <h:form>
+        <h:commandLink value="Logout" action="#{identity.logout}" rendered="#{identity.loggedIn}"/>
+    </h:form>
     <h:form>
         <h:dataTable id="users" value="#{homeUserList.users}" var="user">
             <h:column>
@@ -64,7 +68,6 @@
 
 
 <h:form> <br/><br/>
-   <!-- <h:commandLink value="you can not go here!" action="dissgrantAccess?faces-redirect=true" />-->
     <h:commandLink value="you can not go here!" action="/dissgrantAccess/dissgrantAccess?faces-redirect=true" />
 </h:form>
 </html>

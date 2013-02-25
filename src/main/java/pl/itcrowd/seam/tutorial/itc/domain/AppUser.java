@@ -11,7 +11,6 @@ public class AppUser implements Serializable {
     @Id
     @GeneratedValue
     private Long id;
-
     private String email;
     private String password;
     private String role;
