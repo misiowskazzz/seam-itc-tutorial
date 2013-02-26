@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358417eb-5925-472a-b009-445ca1c0569c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/HomeUserList.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/HomeUserList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
     </list>
     <ignored path="seamITcrowdTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361805139777" ignored="false" />
+    <file path="/Dummy.txt" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361865790441" ignored="false" />
     <file path="/AppUser.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361784429689" ignored="false" />
     <file path="/AppUserDao.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361457056098" ignored="false" />
-    <file path="/fragment.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361803854810" ignored="false" />
+    <file path="/fragment.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361808057999" ignored="false" />
     <file path="/startup.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361527535783" ignored="false" />
     <file path="/homeUserList.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361799823048" ignored="false" />
     <file path="/AppUserView.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361457255344" ignored="false" />
@@ -43,7 +38,7 @@
     <file path="/dissgrantAccess.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361543822036" ignored="false" />
     <file path="/DisgrantAccess.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361548400310" ignored="false" />
     <file path="/DissgrantAccess.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361795684637" ignored="false" />
-    <file path="/UserAuthenticator.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361799446359" ignored="false" />
+    <file path="/UserAuthenticator.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361807648866" ignored="false" />
     <file path="/login.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361784793806" ignored="false" />
     <file path="/emailMsg.xhtml" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361802129623" ignored="false" />
     <file path="/EmailMsg.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361806620324" ignored="false" />
@@ -55,6 +50,7 @@
     <file path="$PROJECT_DIR$/../temp/seam-tutorial/src/main/java/pl/itcrowd/tutorials/itc/security/UserAuthenticator.java" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361799546163" ignored="false" />
     <file path="$PROJECT_DIR$/target/classes/mail/mailTemplate.ftl" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361804154595" ignored="false" />
     <file path="$PROJECT_DIR$/target/seamITcrowdTutorial/WEB-INF/classes/mail/mailTemplate.ftl" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361804154595" ignored="false" />
+    <file path="/messages_en.properties" changelist="358417eb-5925-472a-b009-445ca1c0569c" time="1361807621791" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +65,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -117,85 +113,43 @@
       <file leaf-file-name="mailTemplate.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mail/mailTemplate.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="635" selection-end="635" vertical-scroll-proportion="-12.5">
+            <state line="20" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailMsg.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmailMsg.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="19" selection-start="1676" selection-end="1703" vertical-scroll-proportion="0.44315544">
+            <state line="67" column="19" selection-start="1676" selection-end="1703" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeUserList.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
+      <file leaf-file-name="Authorizer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Authorizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="92" selection-start="844" selection-end="844" vertical-scroll-proportion="16.166666">
+            <state line="9" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emailMsg.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="78" selection-start="970" selection-end="970" vertical-scroll-proportion="-12.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="876" selection-end="1085" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.7307693">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="faces-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="4" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.08941878">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <file leaf-file-name="UserAuthenticator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="249" selection-end="424" vertical-scroll-proportion="0.0">
+            <state line="35" column="52" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,10 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/dissgrantAccess.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/disgrantAccess/DisgrantAccess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/disgrantAccess/DissgrantAccess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/SecurityExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dao/AppUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml" />
@@ -248,11 +198,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/dissgrantAccess/DissgrantAccess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/mail/mailTemplate.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_pl.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/framework/LocaleSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
       </list>
     </option>
   </component>
@@ -316,8 +270,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="5" />
+    <option name="x" value="3" />
+    <option name="y" value="7" />
     <option name="width" value="1600" />
     <option name="height" value="877" />
   </component>
@@ -350,7 +304,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -833,6 +786,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -851,12 +805,13 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.itcrowd.seam.tutorial.itc.framework" />
       <recent name="pl.itcrowd.seam.tutorial.itc.security" />
       <recent name="pl.itcrowd.seam.tutorial" />
     </key>
@@ -913,6 +868,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -939,19 +907,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1023,8 +978,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="5" width="1600" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="3" y="7" width="1600" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1048,7 +1003,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16344917" sideWeight="0.6744186" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25418276" sideWeight="0.6744186" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="2" y="451" width="1400" height="677" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1117,50 +1072,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/domain/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="-0.6674473">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="16" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.8430913">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="35" column="52" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Admin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/seam-beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="797" selection-end="797" vertical-scroll-proportion="0.72131145">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="10" column="0" selection-start="531" selection-end="639" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mail/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/solder/solder-impl/3.1.0.Final/solder-impl-3.1.0.Final-sources.jar!/org/jboss/solder/servlet/exception/CatchExceptionFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/solder/solder-impl/3.1.0.Final/solder-impl-3.1.0.Final-sources.jar!/org/jboss/solder/servlet/event/ServletEventBridgeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="85" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homeUserList.xhtml">
@@ -1172,7 +1107,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/emailMsg.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="78" selection-start="970" selection-end="970" vertical-scroll-proportion="-12.5">
+        <state line="35" column="9" selection-start="970" selection-end="970" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
@@ -1185,7 +1120,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
@@ -1193,29 +1134,10 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="249" selection-end="424" vertical-scroll-proportion="0.0">
+        <state line="7" column="19" selection-start="249" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1236,14 +1158,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mail/mailTemplate.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="635" selection-end="635" vertical-scroll-proportion="-12.5">
+        <state line="20" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/view/EmailMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="19" selection-start="1676" selection-end="1703" vertical-scroll-proportion="0.44315544">
+        <state line="67" column="19" selection-start="1676" selection-end="1703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/Authorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/seam/tutorial/itc/security/UserAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="52" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.08941878">
           <folding />
         </state>
       </provider>
